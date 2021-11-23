@@ -6,6 +6,8 @@ POA <- read.csv("POA.csv", sep = ";")
 
 IPCA <- read.csv("IPCA.csv", sep = ";")
 
+IPCA <- left_join(IPCA, POA, by = "Ano")
+
 ## Valor da remuneração de dezembro a valor presente ---------------------------
 
 POA$Vl.Remun.Dezembro.Nom <- as.numeric(gsub(",",".",POA$Vl.Remun.Dezembro.Nom,fixed=TRUE))
