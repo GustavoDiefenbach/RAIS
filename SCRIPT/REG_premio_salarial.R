@@ -126,7 +126,7 @@ PAINEL_MEDIA$D_1000_OU_MAIS <- 100*(PAINEL_MEDIA$D_1000_OU_MAIS)
 ## Regressão -------------------------------------------------------------------
 
 
-plm <-  plm(log.Vl.Remun.Dezembro.IPCA ~ D_Grupo_11+D_Grupo_12+D_Grupo_21+	D_Grupo_22+	D_Grupo_31+	D_Grupo_32+	D_Grupo_41+	D_Grupo_42+
+plm <-  plm(log.Vl.Remun.Dezembro.IPCA ~ D_Grupo_11+ D_Grupo_12+ D_Grupo_21+ D_Grupo_22+ D_Grupo_31+ D_Grupo_32+	D_Grupo_41+	D_Grupo_42+
                       Ind.Portador.Defic+Tempo.Emprego+D_ZERO+D_ATE_4+D_5_A_9+D_10_A_19+	D_20_A_49+	D_50_A_99+	D_100_A_249+
                       D_250_A_499+D_500_A_999+D_1000_OU_MAIS+D_2019+D_2014+D_2009, 
                     data = PAINEL_MEDIA,
