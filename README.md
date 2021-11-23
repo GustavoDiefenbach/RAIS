@@ -11,3 +11,5 @@
 5)RAIS_CARACT = características dos vínculos
 
 6)MAPA_TOTAL e MAPA_SETORES = Distribuição espacial dos estabelecimentos
+
+7)REG_PREMIO_SARIAL = Construção do pseudoPainel e Modelo de Efeitos Fixos
